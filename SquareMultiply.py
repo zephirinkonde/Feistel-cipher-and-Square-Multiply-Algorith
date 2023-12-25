@@ -1,5 +1,9 @@
+#ALGORITHME DU CARRE ET DE LA MULTIPLICATION
+#BY ZEPHIRIN KONDE UMBA
+
+
 from cgitb import reset
-#Zephirin_Konde_Umba
+
 
 def square_multiply(base, exp, mod):
     b = bin(exp)[2:]
