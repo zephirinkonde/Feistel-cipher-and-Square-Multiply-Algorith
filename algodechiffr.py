@@ -1,4 +1,5 @@
-#Zephirin_Konde
+#ALGORITHME DE DECHIFFREMENT
+#BY ZEPHIRIN KONDE UMBA
 def feistel_decipher(block, permutation, left_shift, right_shift, k1, k2):
     # Appliquer l'inverse de la permutation donnée
     inverse_permutation = [permutation.index(i) for i in range(len(permutation))]
