@@ -1,4 +1,6 @@
-#Zephirin_Konde
+#ALGORITHME DE CHIFFREMENT
+#BY ZEPHIRIN KONDE UMBA
+
 def feistel_cipher(block, permutation, left_shift, right_shift, k1, k2):
     # Appliquer la permutation donnée
     permuted_block = [block[i] for i in permutation]
